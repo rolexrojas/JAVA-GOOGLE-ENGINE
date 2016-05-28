@@ -1,0 +1,176 @@
+body {
+	background-color: #E7E7E7;
+	font-family: verdana;
+}
+
+#bodyWrapper {
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#bodyWrapper .innerWrapper {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#header {
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+
+#header h1 {
+	margin-top: 30px!important;
+	margin-bottom: 30px!important;
+	font-size: 30px;
+}
+
+ul#mainMenu {
+	width: 100%;
+	height: auto;
+	float: left;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	border: 1px solid gray;
+	background-color: black;
+	text-weight: bold;
+}
+
+ul#mainMenu li {
+    float: left;
+}
+
+ul#mainMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#mainMenu li a:hover {
+    background-color: #DCDCDC;
+	color: black!important;
+}
+
+ul#mainMenu li a.active {
+	background-color: #4CAF50!important;
+	color: white!important;
+	
+}
+
+
+/***** Generic Section ***/
+
+section#genericSection {
+	width: 98%;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+section#genericSection h2 {
+	font-weight: normal;	
+}
+
+section#genericSection ul#submenu {
+	width: 100%;
+	height: auto;
+	float: left;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 14px;
+}
+
+section#genericSection ul#submenu li {
+    float: left;
+}
+
+section#genericSection ul#submenu li a {
+    display: block;
+    color: black;
+	padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+	background-color: #DCDCDC;
+	border-top: 1px solid #DCDCDC;
+	border-left: 1px solid #DCDCDC;
+	border-top: 1px solid #DCDCDC;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+section#genericSection ul#submenu li a:hover {
+	color: white!important;
+    background-color: #4CAF50!important;
+}
+
+section#genericSection .gridWrapper {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+section#genericSection .grid, section#genericSection .grid thead, section#genericSection .grid tbody {
+	width: 100%;
+	border: 1px solid #DCDCDC;
+	text-align: left;
+	font-size: 16px;
+	font-weight: normal!important;
+}
+
+section#genericSection .grid thead {
+	background-color: gray!important;
+	color: white;
+}
+
+section#genericSection .grid thead tr th, section#genericSection .grid tbody tr td {
+	padding: 5px;
+	font-weight: normal!important;
+}
+
+section#genericSection form  .form-group-wrapper {
+	width: 100%;
+	height: auto;
+	float: left;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+section#genericSection form .form-group {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+section#genericSection form .form-group label {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+section#genericSection form .form-group input {
+	width: 70%;
+	height: 16px;
+	padding: 4px;
+	float: left;
+}
+
+section#genericSection form button {
+	width: auto;
+	height: 30px;
+	float: left;
+}
+
+/**** End Generic Section **/
+

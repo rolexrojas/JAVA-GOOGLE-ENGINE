@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0"
+xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://kenai.com/projects/nbappengine/downloads/download/schema/appengine-web.xsd appengine-web.xsd'>
+    <application>reminderapp-1320</application>
+    <version>1</version>
+    <!--    <ssl-enabled>false</ssl-enabled> -->
+    <sessions-enabled>true</sessions-enabled>
+    <threadsafe>true</threadsafe>
+      <use-google-connector-j>true</use-google-connector-j>
+  <system-properties>
+    <property name="ae-cloudsql.cloudsql-database-url" value="jdbc:google:mysql://reminderapp-1320:reminderappedb?user=root&amp;password=webroot" />
+    <property name="ae-cloudsql.local-database-url" value="jdbc:mysql://localhost:3306/reminderDB?user=root&amp;password=webroot" />
+    <property name="dev-environment-mode" value='1'></property>  <!-- USE THIS PROPERTY TO SWITCH ENVIRONMENTS 1= DEVELOPMENT 2=PRODUCTION -->
+  </system-properties>
+</appengine-web-app>
